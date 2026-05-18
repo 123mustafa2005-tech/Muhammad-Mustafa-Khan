@@ -1,0 +1,120 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  background:#f4f4f4;
+}
+
+nav{
+  background:#0b8457;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 40px;
+}
+
+nav ul{
+  display:flex;
+  list-style:none;
+}
+
+nav ul li{
+  margin-left:20px;
+}
+
+nav ul li a{
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.hero{
+  height:90vh;
+  background:url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  text-align:center;
+}
+
+.hero h2{
+  font-size:60px;
+}
+
+.hero p{
+  font-size:22px;
+  margin:20px 0;
+}
+
+.btn{
+  background:#0b8457;
+  color:white;
+  padding:12px 25px;
+  text-decoration:none;
+  border-radius:5px;
+}
+
+.content{
+  padding:50px;
+  text-align:center;
+}
+
+.content h2{
+  margin-bottom:20px;
+  color:#0b8457;
+}
+
+.content ul{
+  margin-top:20px;
+}
+
+.content img{
+  margin-top:20px;
+  border-radius:10px;
+}
+
+.form-section{
+  padding:50px;
+  text-align:center;
+}
+
+form{
+  width:50%;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+}
+
+form input,
+form textarea{
+  margin:10px 0;
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius:5px;
+}
+
+form button{
+  background:#0b8457;
+  color:white;
+  padding:12px;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+footer{
+  background:#0b8457;
+  color:white;
+  text-align:center;
+  padding:15px;
+  margin-top:20px;
+}
